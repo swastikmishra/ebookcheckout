@@ -85,6 +85,7 @@ button{
     }
     .is-narrow img{
         max-height: 250px;
+	margin: 0 auto;
     }
     .title{
         margin-top: 10px;
