@@ -23,9 +23,12 @@
                         Buy Our EBook
                     </h1>
                       
-                    <form target="ejc" action="https://www.e-junkie.com/ecom/gb2.php?c=cart&amp;i=1496888&amp;cl=310686&amp;ejc=2&amp;custom=mkt" method="POST">
+                    <form target="ejc" action="https://www.e-junkie.com/ecom/gb2.php?c=cart&amp;i=1496888&amp;cl=310686&amp;ejc=2&amp;custom=mkt" method="GET">
                       <input type="text" name="discount_code" placeholder="Discount Code">
-                      <!-- <input type="hidden" name="on0" value="Promotion"> -->
+                      <input type="hidden" name="c" value="cart">
+                      <input type="hidden" name="i" value="1496888">
+                      <input type="hidden" name="cl" value="310686">
+                      <input type="hidden" name="ejc" value="2">
                       <button onclick="javascript:return EJEJC_frm(this.parentNode);" type="submit">Get for free</button>
                     </form>
                 </div>
