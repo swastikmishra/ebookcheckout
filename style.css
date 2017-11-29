@@ -1,0 +1,80 @@
+.is-success{
+    background-image: url('mountains.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #0f3950 !important;
+    background-blend-mode: luminosity;
+}
+
+.is-narrow img{
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.title{
+    font-family: 'Lato';
+    font-weight: normal;
+    margin-top: 15vh;
+    margin-bottom: 50px !important;
+    color: #29536a !important;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    background: rgba(11, 70, 103, 0.48);
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lato';
+    font-size: 16px;
+}
+input:active, input:focus{
+    outline: none;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.brand, .secure-icon{
+    display: none;
+}
+.hero-foot ul li{
+    display: inline-block;
+    margin: 10px 30px;
+}
